@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Practice - Week 6</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-5">
+    <h1>JavaScript Practice - Week 6</h1>
+
+    <!-- Task 1: Temperature Conversion -->
+    <h2>Temperature Conversion</h2>
+    <input type="number" id="tempInput" placeholder="Enter temperature" class="form-control mb-2">
+    <button class="btn btn-primary" onclick="convertCelsiusToFahrenheit()">Convert to Fahrenheit</button>
+    <button class="btn btn-primary" onclick="convertFahrenheitToCelsius()">Convert to Celsius</button>
+    <p id="tempResult"></p>
+
+    <!-- Task 2: Display Current Day and Time -->
+    <h2>Display Current Day and Time</h2>
+    <button class="btn btn-primary" onclick="displayDateTime()">Show Current Date and Time</button>
+    <p id="dateTimeResult"></p>
+
+    <!-- Task 3: Leap Year Checker -->
+    <h2>Leap Year Checker</h2>
+    <input type="number" id="yearInput" placeholder="Enter year" class="form-control mb-2">
+    <button class="btn btn-primary" onclick="checkLeapYear()">Check Leap Year</button>
+    <p id="leapYearResult"></p>
+
+    <!-- Task 4: January 1st on a Sunday -->
+    <h2>Years January 1st Falls on a Sunday</h2>
+    <button class="btn btn-primary" onclick="findSundays()">Find Years</button>
+    <p id="sundayResult"></p>
+
+    <!-- Task 5: Remove Character at Position -->
+    <h2>Remove Character at Position</h2>
+    <input type="text" id="stringInput" placeholder="Enter string" class="form-control mb-2">
+    <input type="number" id="positionInput" placeholder="Position to remove" class="form-control mb-2">
+    <button class="btn btn-primary" onclick="removeCharacter()">Remove Character</button>
+    <p id="removeCharResult"></p>
+</div>
+
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
